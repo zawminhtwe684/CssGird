@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    display: flexbox;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+    /* t/b l/r */
+}
+
+
+/* 1080 - 42 = 1038px* for width 
+Screen အမြင်ကို ၁၀၈၀ ထားပြီး Padding ၂၀ ဆိုတော့ စုစုပေါင်း ပတ်တင်က ၄၀ ဖြစ်သည်။ ဘော်ဒါက ၁ထားရင် စုစုပေါင်း ၂ဖြစ်သည်။
+*/
+
+
+/* 100 - 42 = 58  for height
+အမြင့်ကတော့ သူ့မှာ ၁၀၀ ရှိပြီးသား ကို ပတ်ဒင် ၄၀ နဲ့ ဘော်ဒါ ၂ ကို နှုတ်ပြီး ၅၈ ထားခြင်းဖြစ်သည်။
+*/
+
+#header {
+    border: 1px solid #080000;
+    padding: 20px;
+    height: 58px;
+    width: 1038px;
+}
+
+#header a {}
+
+#slider {
+    border: 1px solid #080000;
+    padding: 20px;
+    width: 1038px;
+    height: 158px;
+}
+
+#feature {
+    /* or  1080 if you give it ok*/
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* inline block ဖြစ်ဖို့လုပ်ခြင်း*/
+    justify-content: space-between;
+    /* အတွင်းစာာသားးတွေကို ညှိခြင်း*/
+}
+
+.feature-box {
+    /* 1080x -40 =1040/3 = 346px-40-2=304px
+ ၁၀၈၀ ရှိတဲ့ စခင်ကို ပတ်ဒင် ၄၀ နှုတ်ပြီး ၃ပိုင်းဖြစ်လို့ ၃နဲ့စား ခြင်းဖြစ် / အတွင်းပတ်ဒင်းနဲ့ ဘော်ဒါနှုတ်ရင် ၃၀၄ ပဲကျန် တစ်ပိုင်းကို */
+    width: 304px;
+    padding: 20px;
+    border: 1px solid #080000;
+}
+
+#content {
+    width: 1080px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*1080*/
+
+#left-content {
+    width: 671px;
+    height: 208px;
+    border: 1px solid #080000;
+    padding: 20px;
+}
+
+#right-content {
+    width: 304px;
+    height: 208px;
+    border: 1px solid #080000;
+    padding: 20px;
+}
+
+#service {
+    width: 1080px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#service-box {
+    border: 1px solid #080000;
+    padding: 20px;
+    width: 215px;
+}
+
+#footer {
+    border: 1px solid #080000;
+    padding: 20px;
+    width: 1038px;
+    height: 158px;
+}
